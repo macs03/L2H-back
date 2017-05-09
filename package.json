@@ -1,0 +1,32 @@
+{
+  "name": "l2h-api",
+  "version": "1.0.0",
+  "description": "Api rest for products of company and shops and inventory",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macs03/L2H-back.git"
+  },
+  "author": "Miguel Cardenas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macs03/L2H-back/issues"
+  },
+  "homepage": "https://github.com/macs03/L2H-back#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "crypto": "0.0.3",
+    "express": "^4.15.2",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.18.1",
+    "mongoose": "^4.9.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
